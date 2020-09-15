@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container
+        {
+            display: flex; 
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: unsafe;
+            align-items: stretch;
+            align-content: stretch;
+        }
+        .container>div
+        {
+            text-align: center;
+            font-size: 2em;
+        }
+        .home
+        {
+            background-color: #83b0f8;
+        }
+        .about
+        {
+            background-color: #f2857c;
+        }
+        .services
+        {
+            background-color: #fcd35d;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <div class="home"> Home </div>
+        <div class="about"> About </div>
+        <div class="services"> Services </div>
+    </nav>
+</body>
+</html>

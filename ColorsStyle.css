@@ -1,0 +1,17 @@
+.hex
+{
+    color: #ff00ff;
+}
+.rgb
+{
+    color: rgb(0, 255, 0);
+}
+.color
+{
+    color: turquoise;
+}
+body
+{
+    background-color: black;
+    color: hsl(89, 43%, 51%);
+}
