@@ -1,0 +1,26 @@
+*
+{
+    color: aqua;
+}
+
+p
+{
+    color: aqua;
+}
+
+p,h1,h2
+{
+    font-family: sans-serif;
+    color : chartreuse;
+}
+
+.newClass
+{
+    font-style: italic;
+}
+
+#idMove
+{
+    color: wheat;
+    background-color: black;
+}
